@@ -185,6 +185,7 @@ public class App
             numbers.push(output);
         }
         float res = numbers.peek();
+        System.out.println("Result = " + res);
         return res;
     }
     public static int priority (char c){
