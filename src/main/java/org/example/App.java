@@ -10,7 +10,7 @@ public class App
     private static final String DB_PASSWORD = "3221";
     private static final String DB_URL = "jdbc:postgresql://localhost:5432/Calculations";
     public static void main( String[] args ) throws Exception {
-
+//test
         Scanner sc = new Scanner(System.in);
         Connection connection = DriverManager.getConnection(DB_URL,DB_USERNAME,DB_PASSWORD);
         while (true){
